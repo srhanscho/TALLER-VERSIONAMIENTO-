@@ -25,8 +25,15 @@ def dividirNumeros(n1, n2):
     else:
         print("Error: No se puede dividir entre 0")
 
+def potenciarNumeros (n1,n2):
+    potencia=n1**n2
+    print(potencia)
+
+
 if __name__ == "__main__":
     sumarNumeros(1, 2)
     restarNumeros(3, 5)
     multiplicarNumeros(4, 6)
     dividirNumeros(10, 2)
+    potenciarNumeros (2,4)
+
