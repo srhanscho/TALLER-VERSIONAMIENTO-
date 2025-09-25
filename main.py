@@ -14,6 +14,10 @@ def sumarNumeros(n1, n2):
 def restarNumeros(n1, n2):
     resta = n1 - n2
     print("Resta:", resta)
+def multiplicarNumeros (n1, n2):
+    multiplicacion= n1*n2
+    print("Multiplicacion:", multiplicacion)
+    
 
 def dividirNumeros(n1, n2):
     if n2 != 0:
@@ -41,6 +45,7 @@ def raizNumero(n1):
 if __name__ == "__main__":
     sumarNumeros(1, 2)
     restarNumeros(3, 5)
+    multiplicarNumeros(20,4)
     dividirNumeros(10, 2)
     potenciarNumeros(2, 4)
     moduloNumeros(10, 3)  
