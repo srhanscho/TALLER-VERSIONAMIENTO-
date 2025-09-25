@@ -14,9 +14,6 @@ def restarNumeros(n1, n2):
     resta = n1 - n2
     print("Resta:", resta)
 
-def multiplicarNumeros(n1, n2):
-    multiplicacion = n1 * n2
-    print("Multiplicación:", multiplicacion)
 
 def dividirNumeros(n1, n2):
     if n2 != 0:
@@ -33,7 +30,6 @@ def potenciarNumeros (n1,n2):
 if __name__ == "__main__":
     sumarNumeros(1, 2)
     restarNumeros(3, 5)
-    multiplicarNumeros(4, 6)
     dividirNumeros(10, 2)
     potenciarNumeros (2,4)
 
