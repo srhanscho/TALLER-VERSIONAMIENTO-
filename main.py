@@ -14,5 +14,6 @@ def restarNumeros (n1,n2):
     resta=n1-n2
     print(resta)
 
-sumarNumeros(1,2)
-restarNumeros(3,5)
+if __name__ == "__main__":
+    sumarNumeros(1,2)
+    restarNumeros(3,5)
