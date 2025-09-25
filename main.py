@@ -5,6 +5,7 @@
     * Sebastian Mejía
     * Camilo Ortíz 
 """
+import math
 
 def sumarNumeros(n1, n2):
     suma = n1 + n2
@@ -31,6 +32,11 @@ def moduloNumeros(n1, n2):
         print("Módulo:", modulo)
     else:
         print("Error: No se puede obtener módulo con divisor 0")
+    
+def raizNumero(n1):
+    raiz = math.sqrt(n1)
+    print("Raiz:", raiz)
+
 
 if __name__ == "__main__":
     sumarNumeros(1, 2)
@@ -38,3 +44,4 @@ if __name__ == "__main__":
     dividirNumeros(10, 2)
     potenciarNumeros(2, 4)
     moduloNumeros(10, 3)  
+    raizNumero(49)
